@@ -9,8 +9,8 @@ export default function QuoteForm() {
 
         const formData = new FormData(e.target)
         try {
-            // NOTE: Replace 'mkgnyonv' with your actual Formspree ID to receive emails
-            const response = await fetch("https://formspree.io/f/mkgnyonv", {
+            // Using FormSubmit.co for direct email delivery without an account mapping
+            const response = await fetch("https://formsubmit.co/ajax/afaceabolade@gmail.com", {
                 method: "POST",
                 body: formData,
                 headers: {
@@ -86,10 +86,17 @@ export default function QuoteForm() {
                                         </div>
                                         <div className="flex flex-col gap-2">
                                             <label className="text-[10px] font-black text-blue-400 uppercase tracking-widest px-2">Industry</label>
-                                            <select name="industry" className="bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white/50 focus:outline-none focus:border-blue-500 transition-colors appearance-none">
-                                                <option className="bg-brand-navy">Fintech / Loan</option>
-                                                <option className="bg-brand-navy">Legal / Lawyer</option>
-                                                <option className="bg-brand-navy">E-Commerce</option>
+                                            <select name="industry" className="bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white/50 focus:outline-none focus:border-blue-500 transition-colors appearance-none scrollbar-hide">
+                                                <option className="bg-brand-navy">Loan website</option>
+                                                <option className="bg-brand-navy">Attorney/Lawyer website</option>
+                                                <option className="bg-brand-navy">Charity Organization</option>
+                                                <option className="bg-brand-navy">Grant website</option>
+                                                <option className="bg-brand-navy">Gold Storage website</option>
+                                                <option className="bg-brand-navy">Investment website</option>
+                                                <option className="bg-brand-navy">Cryptocurrency/BTC website</option>
+                                                <option className="bg-brand-navy">Portfolio website</option>
+                                                <option className="bg-brand-navy">Construction website</option>
+                                                <option className="bg-brand-navy">Business/Company website</option>
                                                 <option className="bg-brand-navy">Other Solutions</option>
                                             </select>
                                         </div>
