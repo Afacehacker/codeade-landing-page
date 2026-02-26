@@ -1,21 +1,25 @@
+import avatar1 from '../assets/images/avatar1.png'
+import avatar2 from '../assets/images/avatar2.png'
+import avatar3 from '../assets/images/avatar3.png'
+
 const testimonials = [
     {
-        quote: "CodeAde transformed our online presence. Our school portal is now much more intuitive and professional.",
-        author: "Principal Johnson",
-        role: "Grace High School",
-        avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop",
+        quote: "CodeAde transformed our online presence. Our investment portal is now much more intuitive and professional.",
+        author: "Chidi Okechukwu",
+        role: "Director, BuildPlus",
+        avatar: avatar1,
     },
     {
-        quote: "The team delivered our courier tracking system way faster than expected. Highly recommended!",
-        author: "Sarah Mensah",
-        role: "Logistics Manager, SpeedRun",
-        avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop",
+        quote: "The team delivered our cryptocurrency platform way faster than expected. Highly recommended!",
+        author: "Folashade Balogun",
+        role: "CEO, LuxDecor",
+        avatar: avatar2,
     },
     {
-        quote: "Professionalism at its peak. Our church website is beautiful and handles donations seamlessly.",
-        author: "Pastor David",
-        role: "Unity Grace Church",
-        avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1974&auto=format&fit=crop",
+        quote: "Professionalism at its peak. Our law firm website is beautiful and handles client inquiries seamlessly.",
+        author: "Adekunle Johnson",
+        role: "Managing Partner, LexLegal",
+        avatar: avatar3,
     },
 ]
 

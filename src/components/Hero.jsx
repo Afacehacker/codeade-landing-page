@@ -1,16 +1,18 @@
 import { useEffect, useRef } from 'react'
 import WhatsAppButton from './WhatsAppButton'
+import heroImage from '../assets/images/hero.png'
 
 const services = [
-  'Bank website',
-  'Auto-Dealer website',
-  'Church website',
-  'Blog website',
-  'E-Commerce website',
-  'Courier website',
-  'Real estate website',
-  'School website',
-  'Bitcoin investment website',
+  'Loan website',
+  'Attorney/Lawyer website',
+  'Charity Organization',
+  'Grant website',
+  'Gold Storage website',
+  'Investment website',
+  'Cryptocurrency/BTC website',
+  'Portfolio website',
+  'Construction website',
+  'Business/Company website',
 ]
 
 export default function Hero() {
@@ -66,11 +68,11 @@ export default function Hero() {
                   Our Expertise
                 </span>
                 <span className="bg-white text-blue-600 px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-[0.2em] shadow-sm border border-blue-100">
-                  9+ Services
+                  10+ Services
                 </span>
               </div>
               <div className="bg-white/40 backdrop-blur-xl rounded-[3rem] p-10 pt-14 border border-blue-50/50 shadow-2xl shadow-blue-500/5 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
-                {services.slice(0, 8).map((item) => (
+                {services.slice(0, 10).map((item) => (
                   <div key={item} className="flex items-center gap-3 group">
                     <div className="w-5 h-5 rounded-full bg-blue-500/10 flex items-center justify-center flex-shrink-0 transition-colors group-hover:bg-blue-500">
                       <svg className="w-3 h-3 text-blue-600 group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
@@ -127,7 +129,7 @@ export default function Hero() {
             <div className="relative w-full max-w-[600px] z-10">
               <div className="relative rounded-[4rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(30,58,138,0.3)] border-b-8 border-r-8 border-blue-600/10 bg-slate-100 aspect-[4/5] group">
                 <img
-                  src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1080&auto=format&fit=crop"
+                  src={heroImage}
                   alt="CodeAde Expert Developer"
                   className="w-full h-full object-cover relative z-0 transition-transform duration-1000 group-hover:scale-105"
                   loading="eager"
