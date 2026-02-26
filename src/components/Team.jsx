@@ -1,4 +1,4 @@
-import teamLead from '../assets/images/team-lead.png'
+import teamLead from '../assets/images/founder.png'
 import team2 from '../assets/images/team2.png'
 import team3 from '../assets/images/avatar3.png'
 
