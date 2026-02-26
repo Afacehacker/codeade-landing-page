@@ -17,7 +17,7 @@ export default function CTA() {
               Start Your Journey
             </span>
 
-            <h2 className="font-display font-black text-6xl md:text-8xl text-white leading-[0.9] tracking-tight">
+            <h2 className="font-display font-black text-4xl sm:text-6xl md:text-8xl text-white leading-[0.9] tracking-tight">
               Ready to build <br />
               <span className="text-blue-400 italic font-serif font-medium">your new website?</span>
             </h2>

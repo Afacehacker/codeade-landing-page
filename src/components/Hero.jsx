@@ -52,11 +52,11 @@ export default function Hero() {
 
             {/* Main Headline */}
             <div className="flex flex-col gap-6">
-              <h1 className="font-display font-black text-7xl md:text-9xl leading-[0.85] tracking-tight text-brand-navy">
+              <h1 className="font-display font-black text-5xl sm:text-7xl md:text-9xl leading-[0.85] tracking-tight text-brand-navy">
                 Need A<br />
                 <span className="text-blue-600">Website?</span>
               </h1>
-              <p className="text-slate-600 text-xl md:text-2xl font-medium max-w-lg">
+              <p className="text-slate-600 text-lg md:text-2xl font-medium max-w-lg">
                 We craft professional, high-performance websites tailored for your specific industry.
               </p>
             </div>
@@ -71,7 +71,7 @@ export default function Hero() {
                   10+ Services
                 </span>
               </div>
-              <div className="bg-white/40 backdrop-blur-xl rounded-[3rem] p-10 pt-14 border border-blue-50/50 shadow-2xl shadow-blue-500/5 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
+              <div className="bg-white/40 backdrop-blur-xl rounded-[2.5rem] sm:rounded-[3rem] p-6 sm:p-10 pt-12 sm:pt-14 border border-blue-50/50 shadow-2xl shadow-blue-500/5 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
                 {services.slice(0, 10).map((item) => (
                   <div key={item} className="flex items-center gap-3 group">
                     <div className="w-5 h-5 rounded-full bg-blue-500/10 flex items-center justify-center flex-shrink-0 transition-colors group-hover:bg-blue-500">

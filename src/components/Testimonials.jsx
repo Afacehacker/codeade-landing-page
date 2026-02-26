@@ -31,7 +31,7 @@ export default function Testimonials() {
                     <span className="inline-block px-6 py-2 rounded-full text-blue-600 text-xs font-black bg-white border border-blue-100 mb-8 uppercase tracking-[0.2em] shadow-sm">
                         Client Testimonials
                     </span>
-                    <h2 className="section-title text-6xl md:text-7xl mb-8">
+                    <h2 className="section-title text-4xl sm:text-6xl md:text-7xl mb-8">
                         The Voice of <span className="text-blue-600">Trust</span>
                     </h2>
                 </div>

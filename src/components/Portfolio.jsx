@@ -1,12 +1,15 @@
 import port1 from '../assets/images/port1.png'
 import port2 from '../assets/images/port2.png'
+import port3 from '../assets/images/port3.png'
+import port4 from '../assets/images/port4.png'
+import port5 from '../assets/images/port5.png'
 
 const projects = [
     {
         title: 'QuickCredit Fintech',
         category: 'Loan & Finance',
         image: port1,
-        description: 'A complete automated loan disbursement platform with identity verification.',
+        description: 'Automated loan disbursement platform with real-time credit scoring.',
     },
     {
         title: 'LexLegal Partners',
@@ -15,10 +18,28 @@ const projects = [
         description: 'Premium law firm portal with automated appointment scheduling.',
     },
     {
+        title: 'HopeBridge Africa',
+        category: 'Charity/NGO',
+        image: port3,
+        description: 'Complete donation ecosystem with transparent impact tracking.',
+    },
+    {
+        title: 'Titan Structures',
+        category: 'Construction',
+        image: port4,
+        description: 'Enterprise resource portal for multi-million dollar construction projects.',
+    },
+    {
+        title: 'LuxStyle Fashion',
+        category: 'E-Commerce',
+        image: port5,
+        description: 'High-conversion fashion store with global payment integration.',
+    },
+    {
         title: 'CryptoEdge Exchange',
         category: 'Blockchain/BTC',
         image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=1000&auto=format&fit=crop',
-        description: 'Real-time crypto tracking and secure wallet integration dashboard.',
+        description: 'Real-time crypto tracking and secure wallet integration.',
     },
 ]
 
@@ -31,7 +52,7 @@ export default function Portfolio() {
                         <span className="inline-block px-6 py-2 rounded-full text-blue-600 text-xs font-black bg-blue-50 border border-blue-100 mb-8 uppercase tracking-[0.2em] shadow-sm">
                             Our Work
                         </span>
-                        <h2 className="section-title text-6xl md:text-7xl">
+                        <h2 className="section-title text-4xl sm:text-6xl md:text-7xl">
                             Proven <span className="text-blue-600">Results</span>
                         </h2>
                     </div>

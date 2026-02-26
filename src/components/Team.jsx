@@ -31,7 +31,7 @@ export default function Team() {
                     <span className="inline-block px-6 py-2 rounded-full text-blue-600 text-xs font-black bg-blue-50 border border-blue-100 mb-8 uppercase tracking-[0.2em] shadow-sm">
                         Our Experts
                     </span>
-                    <h2 className="section-title text-6xl md:text-7xl mb-8">
+                    <h2 className="section-title text-4xl sm:text-6xl md:text-7xl mb-8">
                         The Minds Behind <br />
                         <span className="text-blue-600">The Excellence</span>
                     </h2>

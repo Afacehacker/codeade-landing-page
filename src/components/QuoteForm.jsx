@@ -19,12 +19,12 @@ export default function QuoteForm() {
 
                     <div className="relative z-10 grid lg:grid-cols-2">
                         {/* Left: Text */}
-                        <div className="p-12 md:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-white/5">
+                        <div className="p-6 sm:p-12 md:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-white/5">
                             <span className="inline-flex items-center gap-3 px-6 py-2 rounded-full bg-white/10 text-white text-xs font-black uppercase tracking-[0.3em] border border-white/10 backdrop-blur-sm mb-10 w-fit">
                                 <span className="w-2.5 h-2.5 rounded-full bg-blue-500 animate-pulse shadow-[0_0_10px_rgba(59,130,246,0.8)]" />
                                 Project Inquiry
                             </span>
-                            <h2 className="text-5xl md:text-7xl font-display font-black text-white leading-[0.9] tracking-tight mb-8">
+                            <h2 className="text-4xl sm:text-7xl font-display font-black text-white leading-[0.9] tracking-tight mb-8">
                                 Start Your <br />
                                 <span className="text-blue-400 italic font-serif font-medium">Digital Legacy</span>
                             </h2>
@@ -43,7 +43,7 @@ export default function QuoteForm() {
                         </div>
 
                         {/* Right: Form */}
-                        <div className="p-12 md:p-20 bg-white/5 backdrop-blur-md">
+                        <div className="p-6 sm:p-12 md:p-20 bg-white/5 backdrop-blur-md">
                             {status === 'success' ? (
                                 <div className="h-full flex flex-col items-center justify-center text-center animate-fade-in">
                                     <div className="w-24 h-24 rounded-full bg-blue-600 flex items-center justify-center text-4xl mb-8 shadow-2xl shadow-blue-500/40">
