@@ -1,13 +1,13 @@
-import team1 from '../assets/images/team1.png'
+import teamLead from '../assets/images/team-lead.jpg'
 import team2 from '../assets/images/team2.png'
-import team3 from '../assets/images/avatar3.png' // Using previous avatar as well
+import team3 from '../assets/images/avatar3.png'
 
 const team = [
     {
-        name: 'Tunde Adedeji',
-        role: 'Founder & Lead Engineer',
-        image: team1,
-        expertise: ['System Architecture', 'Security'],
+        name: 'Salaudeen Afeez Abolade',
+        role: 'Founder & Lead Engineer, Fullstack Developer',
+        image: teamLead,
+        expertise: ['Fullstack Architecture', 'System Security'],
     },
     {
         name: 'Chinwe Okoro',
