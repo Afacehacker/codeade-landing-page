@@ -1,9 +1,14 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Services from './components/Services'
+import Portfolio from './components/Portfolio'
+import Integrations from './components/Integrations'
 import Process from './components/Process'
 import WhyUs from './components/WhyUs'
+import Team from './components/Team'
 import Testimonials from './components/Testimonials'
+import FAQ from './components/FAQ'
+import QuoteForm from './components/QuoteForm'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
@@ -19,9 +24,14 @@ export default function App() {
       <main>
         <Hero />
         <Services />
-        <Process />
+        <Portfolio />
         <WhyUs />
+        <Integrations />
+        <Process />
+        <Team />
         <Testimonials />
+        <FAQ />
+        <QuoteForm />
         <CTA />
       </main>
       <Footer />

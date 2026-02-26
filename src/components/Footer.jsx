@@ -40,7 +40,7 @@ export default function Footer() {
           <div className="flex flex-col gap-8">
             <h4 className="font-display font-black text-brand-navy uppercase tracking-[0.2em] text-xs">Solutions</h4>
             <ul className="flex flex-col gap-4">
-              {['Banking', 'E-Commerce', 'Professional', 'Real Estate'].map((item) => (
+              {['Fintech/Loan', 'Crypto/BTC', 'Legal/Law', 'Charity/NGO'].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-500 hover:text-blue-600 text-base font-bold transition-all hover:translate-x-1 inline-block">
                     {item} Systems
